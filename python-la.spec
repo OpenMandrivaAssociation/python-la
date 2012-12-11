@@ -51,3 +51,10 @@ PYTHONDONTWRITEBYTECODE= %__python setup.py install --root=%{buildroot}
 %defattr(-,root,root)
 %doc LICENSE README.rst doc/build/html
 %py_platsitedir/%{module}*
+
+
+%changelog
+* Tue Jun 26 2012 Lev Givon <lev@mandriva.org> 0.6.0-1
++ Revision: 806921
+- imported package python-la
+
