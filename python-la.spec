@@ -15,7 +15,7 @@ Release:	%{release}
 Source0:	http://pypi.python.org/packages/source/l/%{module}/%{module}-%{version}.tar.gz
 License:	BSD
 Group:		Development/Python
-Url:		http://berkeleyanalytics.com/la/
+Url:		https://berkeleyanalytics.com/la/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	hdf5-devel >= 1.8
 BuildRequires:	python-devel, python-sphinx
