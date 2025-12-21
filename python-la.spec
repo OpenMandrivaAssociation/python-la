@@ -17,6 +17,7 @@ License:	BSD
 Group:		Development/Python
 Url:		https://berkeleyanalytics.com/la/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	make
 BuildRequires:	hdf5-devel >= 1.8
 BuildRequires:	python-devel, python-sphinx
 Requires:	python-numpy, python-bottleneck
