@@ -3,9 +3,9 @@
 %define version 0.6.0
 %define	rel	1
 %if %mdkversion < 201100
-%define release %mkrel %{rel}
+%define release %{rel}.1
 %else
-%define	release	%{rel}
+%define	release %{rel}.1
 %endif
 
 Summary:	Label the rows, columns, any dimension of your NumPy arrays
